@@ -9,5 +9,9 @@ function calcularIVA(productos:Producto[]):[number, number]{
 
 //**Class Producto */
 class Producto  {
-    precio:number;
+    public precio:number;
+
+    constructor(precio_producto:number){
+       this.precio = precio_producto;
+    }
 }
